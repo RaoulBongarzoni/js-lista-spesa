@@ -11,7 +11,7 @@ document.getElementById("add").addEventListener("click", function()
     shopping_array.push(new_item);
     while( i < shopping_array.length){
 
-        document.getElementById("shopping_list").innerHTML += `<li> ${i+1} ${shopping_array[i]} </li> `;
+        document.getElementById("shopping_list").innerHTML += `<li> ${shopping_array[i]} </li> `;
         i++;
     }
 })
